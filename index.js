@@ -16,3 +16,4 @@ switch (randomNumber) {
   }
 
   console.log(favQuotes);
+  
