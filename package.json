@@ -1,0 +1,21 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "description": "Repository for exercise 3 of DIG4639\r \"Laughter is timeless, imagination has no age, and dreams are forever.\" - Walt Disney",
+  "main": "index.js",
+  "type": "modeule",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaylee-Best/ex3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaylee-Best/ex3/issues"
+  },
+  "homepage": "https://github.com/Kaylee-Best/ex3#readme"
+}
