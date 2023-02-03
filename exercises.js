@@ -8,7 +8,7 @@ let flattenedArray = arrays.reduce((acc, curVal) => {
 console.log(flattenedArray);
 
 //exercise 3-2
- function loop(start, test, update, body) {
+ export function loop(start, test, update, body) {
     for (let value = start; test(value); value = update(value)) {
       body(value);
     }
@@ -17,14 +17,14 @@ loop(3, n => n > 0, n => n - 1, console.log);
 
 //exercise 3-3 & 3-4
 
- function every(array, predicate) {
+ export function every(array, predicate) {
     for (let element of array) {
       if (!predicate(element)) return false;
     }
     return true;
   };
   
-  function every2(array, predicate) {
+  export function every2(array, predicate) {
     return !array.some(element => !predicate(element));
   };
 
